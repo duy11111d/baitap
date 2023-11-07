@@ -51,7 +51,7 @@ p {
     font-weight: 500;
 }
 
-span {
+.ptn span {
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -108,14 +108,14 @@ section {
     justify-content: center;
 }
 
-img {
+.img img {
     width: 254px;
     height: 230px;
     transition: .3s ease-in-out;
 
 }
 
-img:hover {
+.img img:hover {
 
     transform: scale(1.3);
 }
