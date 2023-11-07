@@ -1,0 +1,197 @@
+/* 
+khai báo font chữ
+*/
+@font-face {
+    font-family: 'Nunito';
+    src: url('./fonts/Nunito-Bold.woff2') format('woff2'),
+        url('./fonts/Nunito-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('./fonts/Nunito-Medium.woff2') format('woff2'),
+        url('./fonts/Nunito-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('./fonts/Nunito-Regular.woff2') format('woff2'),
+        url('./fonts/Nunito-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('./fonts/Nunito-BoldItalic.woff2') format('woff2'),
+        url('./fonts/Nunito-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* 
+ */
+body {
+
+    justify-content: center;
+
+
+}
+
+p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+span {
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    font-size: 16;
+}
+
+.ptn {
+    font-size: 12px;
+}
+
+h4 a {
+    font-weight: 500;
+    font-size: 21px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.home {
+    padding-bottom: 110px;
+    position: relative;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 110px;
+    height: 704px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    max-width: 100%;
+    height: 704px;
+    margin-left: 130px;
+    margin-right: 130px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.row-1 {
+    width: 1200px;
+    height: 82px;
+    margin-left: -12px;
+    margin-right: -12px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.row-2 {
+    width: 1176px;
+    height: 622px;
+    margin-right: 0;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 254px;
+    height: 230px;
+    transition: .3s ease-in-out;
+
+}
+
+img:hover {
+
+    transform: scale(1.3);
+}
+
+.item1 {
+    overflow: hidden;
+
+    height: 230px;
+}
+
+.col {
+    width: 274px;
+    height: 622px;
+}
+
+.col .wrapper {
+    width: 274px;
+    height: 518.500px;
+}
+
+.col .wrapper .slide {
+    width: 274px;
+    height: 478.500px;
+    padding: 20px;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* 
+ ----------- button------------
+*/
+body {
+    display: grid;
+    font-family: Avenir, sans-serif;
+    color: #111;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.ptn {
+    position: relative;
+    margin: auto;
+    transition: all 0.2s ease;
+    text-align: left;
+}
+
+.ptn svg {
+    position: relative;
+    top: 0;
+    margin-left: 8px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #111;
+    stroke-width: 2;
+    transform: translateX(-3px);
+    transition: all 0.3s ease;
+}
+
+.ptn:hover svg {
+    transform: translateX(0);
+}
+
+.ptn:active {
+    transform: scale(0.96);
+}
+
+.arrow-right {
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid rgb(16, 16, 16);
+}
